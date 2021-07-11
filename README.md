@@ -55,6 +55,9 @@ SQLAlchemy            1.2.19
 sqlparse              0.4.1
 threadpoolctl
 
-## Go to path Drbot/bot 
+## Go to path bot 
 run python chatbottrain.py
 run python bot_interaction.py
+interact with the chatbot 
+click on the form (diabetes test form)
+sumit button will navigate to final prediction
