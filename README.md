@@ -31,7 +31,7 @@ chatterbot-corpus     1.2.0
 click                 8.0.1   
 colorama              0.4.4   
 Django                3.2.5   
-joblib                1.0.1
+pickle
 mathparse             0.1.2
 nltk                  3.6.2
 numpy                 1.21.0
@@ -39,12 +39,8 @@ packaging             21.0
 pandas                1.3.0
 Pint                  0.17
 pip                   19.2.3
-pymongo               3.11.4
-pyparsing             2.4.7
-python-dateutil       2.7.5
-pytz                  2021.1
-PyYAML                3.13
-regex                 2021.7.6
+
+
 scikit-learn          0.24.2
 scipy                 1.7.0
 setuptools            41.2.0
