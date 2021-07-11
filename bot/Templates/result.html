@@ -1,0 +1,54 @@
+{% load static %}
+<html>
+    <head></head>
+         <style>
+          h1{
+               font-size:45px;
+               font-family:Times New Roman;
+               color: Maroon
+          }
+
+          h2{
+               font-size:px;
+               font-family:Times New Roman;
+               color: Maroon
+          }
+           h2{
+               font-size:35px;
+               font-family:Times New Roman;
+             
+          }
+         </style>
+
+     <div style="background-image:url('{% static 'css/bot.jfif' %}');background-position:absolute;background-size:cover;position:0% 0%;height:100%;width:100%;position:absolute">
+            
+          <body>
+               
+                    {% if result == 'No'%}
+                         <h1> <b>Dbot:</b> After analyzing the information given by you, I have predicted you are not suffering from diabetes.
+                         Please take care of your health!! </h1>
+                    {% elif result == 'Yes'%}
+                         <h1> <b>Dbot:</b>After analyzing the information given by you, I have predicted predicted you might be showing symptoms
+                         of diabetes</h1>
+
+                         <h2> <b>Dbot:</b> Don't panic I am suggesting you some exercises and diet plan</h2>
+                              <h3>10 Exercises for Diabetes: </h3>
+                                   <h3>Walking </h3>
+                                   <h3>Yoga</h3>
+                                   <h3>Swimming</h3>
+                                   <h3>Walking</h3>
+                                   <h3>Cycling</h3>
+                                   <h3>Team sports</h3>
+                                   <h3>Aerobic dance</h3>
+                                   <h3>Weightlifting</h3>
+                                   <h3>Resistance band exercises</h3>
+                                   <h3>Calisthenics</h3>
+
+                         <h2> Please Click on the link given below for diet plan</h2>
+                         <a href="https://www.healthifyme.com/blog/diabetic-diet-plan">Diet Plan</h1>   
+          
+                    {% endif %}
+               
+          </body>
+     </div>     
+</html>

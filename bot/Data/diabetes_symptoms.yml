@@ -1,0 +1,13 @@
+conversations: Hi
+  Hello,I am Dbot a diabetes doctor chatbot.
+
+  - - I am feeling very hungry and thirsty nowadays
+  - Are you losing weight without exercise?
+  - - ya/nope
+  - Do you get tired very easily?
+  - - ya/nope
+  - Do you urinate alot these days?
+  - - ya
+  - Is your vision getting blurry?
+  - - ya
+  - I would suggest you to fill the form
