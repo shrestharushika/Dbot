@@ -2,7 +2,7 @@
 # Team Leader: Rushika Shrestha
 # Team Members: Rushika Shrestha and Kanika Gupta
 # Theme: HealthCare
-
+# Hackathon: WCE 2021
 # Track
 Diabetes is a metabolic disease that causes high blood sugar. With diabetes, your body either doesn't make enough insulin or can't effectively use the insulin it does make. It’s important to detect the diabetes in earlier stage as experts says it can be reversed only if it is detected earlier. It’s quite risky to leave the diabetes untreated. 
 Our project aims to build a diabetes predicting chatbot. It will conduct a one to one text conversation with the patient using Natural Language Understanding. This personalized diabetes prediction chatbot is trained using diabetes dataset. For prediction, multiple machine learning and deep learning models are used. The model with best accuracy score is considered to integrate with chatbot. Patient will have interactive session with the chatbot and the answers are saved to analyse and predict whether a patient is diabetic or not.
